@@ -30,3 +30,13 @@ git pull origin branch_name
 Setup origin remote url for the first time only 
 git remote add origin git@github.com:pallab-nnd-dev/python-test.git
 Need to change the git url after origin and recomened to use SSH url
+
+
+Clone a fresh new repo 
+git clone username@rest-of-the-url -b branch-name 
+# branch name and -b is optional. By default main branch will clone
+
+live example 
+git clone git@github.com:pallab-nnd-dev/python-test.git
+
+always use ssh
