@@ -1,0 +1,32 @@
+Commands in terminal
+
+create a new branch
+git checkout -b branch_name
+
+switch to existing branch 
+git checkout branch_name
+
+list & see all branches
+git branch
+
+Initilize git for the first time
+git init 
+
+Commit 
+git commit -m "put your commit message here"
+
+Add new files under git for tracking, // . means need to add all files
+git add .
+
+Push into origin branch
+git push origin branch_name
+
+Checking git status
+git status
+
+Pull the changes from remote origin branch
+git pull origin branch_name
+
+Setup origin remote url for the first time only 
+git remote add origin git@github.com:pallab-nnd-dev/python-test.git
+Need to change the git url after origin and recomened to use SSH url
